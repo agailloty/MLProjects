@@ -1,4 +1,4 @@
-# MLProjects — Projets machine learning à objet métier, sur données publiques françaises
+# MLProjects — Projets machine learning à objet métier, sur données publiques ouvertes
 
 Catalogue de projets ML concrets, fondés sur des données publiques ouvertes : françaises (data.gouv.fr, INSEE, ADEME, opendata des administrations), européennes (Agence européenne pour l'environnement, opendata des villes et régions européennes) et américaines (NYC Open Data, Chicago Data Portal, EPA fueleconomy.gov). Chaque projet est documenté selon la même grille : scénario métier, enjeux chiffrés, utilisateurs finaux, données vérifiées, formalisation ML, métriques orientées décision, démo Hugging Face, pièges et extensions.
 
