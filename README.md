@@ -27,6 +27,10 @@ Objectif pédagogique : entraîner un modèle sur un vrai problème, puis le dé
 
 Toutes les sources de données citées dans les fiches ont été vérifiées en ligne (URLs de data.gouv.fr, opendata Enedis, SNCF, Airparif, Géorisques, ADEME, France Travail, opendata Paris...). Licences à la charge des étudiants : vérifier la mention licence de chaque jeu avant publication (Licence Ouverte ou Etalab dans la grande majorité des cas) et citer la source dans la démo.
 
+## Notebooks d'exploration des données (EDA)
+
+Chaque projet du catalogue dispose d'un notebook Jupyter exécutable dans `notebooks/` : cellule de téléchargement des données depuis la source publique (URL vérifiée), chargement, analyse (distributions, corrélations), résultats observés (exécution du 16/10/2026), puis identification de la variable cible et des régresseurs, avec les pièges à éviter (fuites de données, classes déséquilibrées, découpe temporelle). Index des notebooks et cible ML de chaque projet : `notebooks/README.md`.
+
 ## Contrat pédagogique
 
 Chaque binôme ou trinôme rend :
