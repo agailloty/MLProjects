@@ -20,7 +20,7 @@ La régularité est l'indicateur qualité central du rail : elle pilote les pén
 
 - Régularité mensuelle TGV par liaison : https://ressources.data.sncf.com/explore/dataset/regularite-mensuelle-tgv-aqst/
 - Régularité mensuelle TGV globale : https://ressources.data.sncf.com/explore/dataset/reglarite-mensuelle-tgv-nationale/
-- Régularité mensuelle TGV par axe : httpsressources.data.sncf.com/explore/dataset/regularite-mensuelle-tgv-axes/
+- Régularité mensuelle TGV par axe : https://ressources.data.sncf.com/explore/dataset/regularite-mensuelle-tgv-axes/
 - Catalogue complet (trains complets, retard à l'arrivée par train, TER, Transilien) : https://data.sncf.com
 
 ## Formalisation ML
