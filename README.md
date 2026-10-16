@@ -1,6 +1,6 @@
 # MLProjects — Projets machine learning à objet métier, sur données publiques françaises
 
-Catalogue de projets ML concrets, fondés exclusivement sur des données publiques françaises (data.gouv.fr, opendata des opérateurs et administrations, INSEE, ADEME, Santé publique France...). Chaque projet est documenté selon la même grille : scénario métier, enjeux chiffrés, utilisateurs finaux, données vérifiées, formalisation ML, métriques orientées décision, démo Hugging Face, pièges et extensions.
+Catalogue de projets ML concrets, fondés sur des données publiques ouvertes : françaises (data.gouv.fr, INSEE, ADEME, opendata des administrations), européennes (Agence européenne pour l'environnement, opendata des villes et régions européennes) et américaines (NYC Open Data, Chicago Data Portal, EPA fueleconomy.gov). Chaque projet est documenté selon la même grille : scénario métier, enjeux chiffrés, utilisateurs finaux, données vérifiées, formalisation ML, métriques orientées décision, démo Hugging Face, pièges et extensions.
 
 Objectif pédagogique : entraîner un modèle sur un vrai problème, puis le déployer dans une interface visuelle (Gradio sur Hugging Face Spaces), en justifiant chaque choix par l'usage métier, pas par la métrique brute.
 
@@ -24,8 +24,16 @@ Objectif pédagogique : entraîner un modèle sur un vrai problème, puis le dé
 | [P14](projets/P14-lycees-reussite.md) | Détection des lycées en dérive | Éducation | Régression / classification | ★★☆ |
 | [P15](projets/P15-matching-emploi.md) | Matching compétences-offres d'emploi | Emploi / NLP | NLP, similarité sémantique | ★★★ |
 | [P16](projets/P16-urgences-hospitalieres.md) | Prévision des affluences aux urgences | Santé | Séries temporelles | ★★★ |
+| [P17](projets/P17-co2-voitures-eea.md) | Émissions CO2 des voitures neuves européennes | Mobilité / climat | Régression | ★★☆ |
+| [P18](projets/P18-baignade-europeenne.md) | Qualité des eaux de baignade en Europe | Environnement / santé | Classification | ★★☆ |
+| [P19](projets/P19-pics-no2-madrid.md) | Jours de pollution NO2 à Madrid | Environnement / santé | Classification temporelle | ★★★ |
+| [P20](projets/P20-quotas-carbone-euets.md) | Dépassements de quotas carbone (EU ETS) | Climat / finance carbone | Classification | ★★★ |
+| [P21](projets/P21-collisions-nyc.md) | Gravité des collisions routières à New York | Sécurité routière | Classification | ★★☆ |
+| [P22](projets/P22-inspections-chicago.md) | Échecs d'inspection sanitaire à Chicago | Santé publique | Classification déséquilibrée | ★★☆ |
+| [P23](projets/P23-tarif-taxi-nyc.md) | Tarif des courses de taxi vert à New York | Transport / mobilité | Régression | ★★☆ |
+| [P24](projets/P24-consommation-epa.md) | Consommation des véhicules américains (EPA) | Mobilité / énergie | Régression | ★★☆ |
 
-Toutes les sources de données citées dans les fiches ont été vérifiées en ligne (URLs de data.gouv.fr, opendata Enedis, SNCF, Airparif, Géorisques, ADEME, France Travail, opendata Paris...). Licences à la charge des étudiants : vérifier la mention licence de chaque jeu avant publication (Licence Ouverte ou Etalab dans la grande majorité des cas) et citer la source dans la démo.
+Toutes les sources de données citées dans les fiches ont été vérifiées en ligne (URLs de data.gouv.fr, opendata Enedis, SNCF, Airparif, Géorisques, ADEME, France Travail, opendata Paris, et pour les projets P17-P24 : Agence européenne pour l'environnement, datos.comunidad.madrid, NYC Open Data, Chicago Data Portal, fueleconomy.gov). Licences à la charge des étudiants : vérifier la mention licence de chaque jeu avant publication (Licence Ouverte ou Etalab dans la grande majorité des cas) et citer la source dans la démo.
 
 ## Notebooks d'exploration des données (EDA)
 

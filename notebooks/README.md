@@ -26,6 +26,16 @@ Un notebook Jupyter par projet du catalogue. Chaque notebook suit la même struc
 | [P14](P14-eda.ipynb) | Réussite au bac des lycées | `Taux de réussite - Toutes séries` | Régression |
 | [P15](P15-eda.ipynb) | Métiers et compétences (ROME) | grand domaine ROME (16 classes) | Classification haute dimension / NLP |
 | [P16](P16-eda.ipynb) | Passages aux urgences (SurSaUD) | `nbre_pass_tot` quotidien (J+7) | Série temporelle |
+| [P17](P17-eda.ipynb) | CO2 WLTP des voitures neuves (EEA) | `ewltp_gkm` (g/km, thermiques) | Régression |
+| [P18](P18-eda.ipynb) | Qualité des eaux de baignade en Europe (EEA) | non-excellent en 2024 (~12,8 %) | Classification déséquilibrée |
+| [P19](P19-eda.ipynb) | Qualité de l'air horaire à Madrid (2024) | jour dégradé NO2 > 40 µg/m³ (~29,5 %) | Classification temporelle |
+| [P20](P20-eda.ipynb) | EU ETS : émissions vérifiées vs allocations (EEA) | émissions > allocation (~48,8 %) | Classification |
+| [P21](P21-eda.ipynb) | Collisions routières à New York | au moins un blessé (~43,5 %) | Classification |
+| [P22](P22-eda.ipynb) | Inspections sanitaires à Chicago | `Fail` (~19,1 %) | Classification déséquilibrée |
+| [P23](P23-eda.ipynb) | Tarif des courses de taxi vert à New York | `fare_amount` en USD (courses standard) | Régression |
+| [P24](P24-eda.ipynb) | Consommation des véhicules américains (EPA) | `comb08` (MPG, thermiques) | Régression |
+
+Les notebooks P17-P24 couvrent des données européennes (Agence européenne pour l'environnement, datos.comunidad.madrid) et américaines (NYC Open Data, Chicago Data Portal, fueleconomy.gov).
 
 Chaque notebook se réexécute de bout en bout : le téléchargement est sauté si le fichier est déjà présent dans `data/`. Les chiffres de la section 4 correspondent à l'exécution du 16 octobre 2026 ; les sources vivantes (flux temps réel, APIs paginées) peuvent évoluer d'un jour à l'autre.
 
